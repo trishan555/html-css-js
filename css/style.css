@@ -6,17 +6,17 @@
       text-align: center;
   }
 .box{
-    
     background-color: gray;
     margin: 10px;
     border: 1px solid black;
 }
 
-  .column {
+  .column1, .column2, .column3 {
     float: left;
     width: 33.33%;
     
   }
+ 
 h3{
     border: 1px solid black;
     float: right;
@@ -28,6 +28,12 @@ p{
     padding: 10px;
 }
 
+.row{
+    width: 100%;
+}
+.col-md-3{
+    width: 100%;
+}
 #col1{
     background-color: pink;
     padding: 0px;
@@ -41,11 +47,20 @@ p{
 }
 
 /* for tablet view */
-@media screen (min-width: 768px) and (max-wiidth: 991px){
+@media (max-width: 768px){
+    .column1, .column2{
+        width: 50%;
+    }
+    .column3{
+        width: 100%;
+    }
     
 }
 
 /* for mobile view */
-@media (min-width:1200px){
+@media (max-width:426px){
+    .column1, .column2, .column3{
+        width: 100%;
+    }
 
 }

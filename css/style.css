@@ -47,7 +47,7 @@ p{
 }
 
 /* for tablet view */
-@media (max-width: 768px){
+@media (max-width: 991px){
     .column1, .column2{
         width: 50%;
     }
@@ -58,7 +58,7 @@ p{
 }
 
 /* for mobile view */
-@media (max-width:426px){
+@media (max-width:767px){
     .column1, .column2, .column3{
         width: 100%;
     }

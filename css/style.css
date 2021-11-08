@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h1{
+      text-align: center;
+  }
+.box{
+    
+    background-color: gray;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    
+  }
+h3{
+    border: 1px solid black;
+    float: right;
+    margin: 0px;
+}
+
+
+p{
+    padding: 10px;
+}
+
+#col1{
+    background-color: pink;
+    padding: 0px;
+} 
+#col2{
+    background-color:firebrick;
+    color: white;
+}
+#col3{
+    background-color: rgb(192, 184, 111);
+}
+
+/* for tablet view */
+@media screen (min-width: 768px) and (max-wiidth: 991px){
+    
+}
+
+/* for mobile view */
+@media (min-width:1200px){
+
+}
